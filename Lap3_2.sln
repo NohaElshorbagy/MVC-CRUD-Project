@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lap3_2", "Lap3_2.csproj", "{6A59E6FE-6C3D-4079-982C-47F87503DE55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_CRUD", "MVC_CRUD.csproj", "{6A59E6FE-6C3D-4079-982C-47F87503DE55}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lap9", "..\Lap9\Lap9.csproj", "{C456CEC6-3A65-44DA-9CB5-97EEC1F5DE08}"
 EndProject
