@@ -1,0 +1,19 @@
+﻿@model User
+
+<form method="post">
+	<label asp-for="Name"></label><br />
+	<input asp-for="Name" class="form-control"/><br />
+
+	<label asp-for="Email"></label><br />
+	<input asp-for="Email" class="form-control" /><br />
+
+	<label asp-for="Password"></label><br />
+	<input asp-for="Password" class="form-control" /><br />
+
+	<label asp-for="Age"></label><br />
+	<input asp-for="Age" class="form-control" /><br />
+
+	<label asp-for="RoleId"></label><br />
+	<input asp-for="RoleId" class="form-control" /><br />
+	<input type="submit" value="Register" class="btn btn-primary"/>
+</form>

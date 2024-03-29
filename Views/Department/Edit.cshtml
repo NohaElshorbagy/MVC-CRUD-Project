@@ -1,0 +1,7 @@
+﻿@model Department
+    <form method="post">
+        <label asp-for="DeptName"></label> <br />
+        <input asp-for="DeptName" class="form-control" value="@Model?.DeptName" />
+
+        <input type="submit" value="Edit" class="btn btn-primary" />
+    </form>

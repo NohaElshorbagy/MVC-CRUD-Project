@@ -1,0 +1,10 @@
+﻿@model Student
+@{
+    SelectList deplist = new SelectList(ViewBag.deptList, "DeptId", "DeptName");
+}
+
+    <form method="post">
+        <partial name="CreateEdit" />
+        <input type="submit" class="btn btn-outline-secondary" value="Update" />
+
+    </form>
